@@ -3,29 +3,59 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E02CC8C2B702407007F3E93 /* BMIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC8B2B702407007F3E93 /* BMIModel.swift */; };
+		3E02CC8F2B70CDDD007F3E93 /* AppStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC8E2B70CDDD007F3E93 /* AppStep.swift */; };
+		3E02CC912B70CE78007F3E93 /* AppFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC902B70CE78007F3E93 /* AppFlow.swift */; };
+		3E02CC932B70F8F4007F3E93 /* AppStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC922B70F8F4007F3E93 /* AppStepper.swift */; };
+		3E02CC952B713BE8007F3E93 /* CalculateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC942B713BE8007F3E93 /* CalculateViewModel.swift */; };
+		3E02CC982B713F9C007F3E93 /* RxFlowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC972B713F9C007F3E93 /* RxFlowViewController.swift */; };
+		3E02CC9C2B714A60007F3E93 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC9B2B714A60007F3E93 /* ViewModel.swift */; };
+		3E02CC9E2B716FE7007F3E93 /* StoryboardSceneInstantiating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E02CC9D2B716FE7007F3E93 /* StoryboardSceneInstantiating.swift */; };
+		3E66BB3F2B72D789002ECF9A /* ResultViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66BB3E2B72D789002ECF9A /* ResultViewModel.swift */; };
+		3E66BB412B72DB62002ECF9A /* StoryboardInstantiating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E66BB402B72DB62002ECF9A /* StoryboardInstantiating.swift */; };
+		3ED6BA892B6E528500274834 /* HeightModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6BA882B6E528500274834 /* HeightModel.swift */; };
+		3ED6BA8B2B6E5AD000274834 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6BA8A2B6E5AD000274834 /* SecondViewController.swift */; };
+		3ED6BA8D2B6E5F2800274834 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED6BA8C2B6E5F2800274834 /* ResultViewController.swift */; };
 		AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F79230D61800065EFD9 /* AppDelegate.swift */; };
 		AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */; };
-		AD0B9F7E230D61800065EFD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* ViewController.swift */; };
+		AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0B9F7D230D61800065EFD9 /* CalculateViewController.swift */; };
 		AD0B9F81230D61800065EFD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F7F230D61800065EFD9 /* Main.storyboard */; };
 		AD0B9F83230D61840065EFD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F82230D61840065EFD9 /* Assets.xcassets */; };
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
+		FE8264A8A7F24B056E7301D1 /* Pods_BMI_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB3EA18F5B7F737F2E4F60A /* Pods_BMI_Calculator.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DF73F90238065C453A83696 /* Pods-BMI Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator.debug.xcconfig"; path = "Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		3E02CC8B2B702407007F3E93 /* BMIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMIModel.swift; sourceTree = "<group>"; };
+		3E02CC8E2B70CDDD007F3E93 /* AppStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStep.swift; sourceTree = "<group>"; };
+		3E02CC902B70CE78007F3E93 /* AppFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFlow.swift; sourceTree = "<group>"; };
+		3E02CC922B70F8F4007F3E93 /* AppStepper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStepper.swift; sourceTree = "<group>"; };
+		3E02CC942B713BE8007F3E93 /* CalculateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewModel.swift; sourceTree = "<group>"; };
+		3E02CC972B713F9C007F3E93 /* RxFlowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxFlowViewController.swift; sourceTree = "<group>"; };
+		3E02CC9B2B714A60007F3E93 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3E02CC9D2B716FE7007F3E93 /* StoryboardSceneInstantiating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardSceneInstantiating.swift; sourceTree = "<group>"; };
+		3E66BB3E2B72D789002ECF9A /* ResultViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewModel.swift; sourceTree = "<group>"; };
+		3E66BB402B72DB62002ECF9A /* StoryboardInstantiating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiating.swift; sourceTree = "<group>"; };
+		3ED6BA882B6E528500274834 /* HeightModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightModel.swift; sourceTree = "<group>"; };
+		3ED6BA8A2B6E5AD000274834 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3ED6BA8C2B6E5F2800274834 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		68867211C9BA71A54749D58F /* Pods-BMI Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BMI Calculator.release.xcconfig"; path = "Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator.release.xcconfig"; sourceTree = "<group>"; };
 		AD0B9F76230D61800065EFD9 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0B9F79230D61800065EFD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AD0B9F7D230D61800065EFD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD0B9F7D230D61800065EFD9 /* CalculateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateViewController.swift; sourceTree = "<group>"; };
 		AD0B9F80230D61800065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD0B9F82230D61840065EFD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD0B9F85230D61840065EFD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FAB3EA18F5B7F737F2E4F60A /* Pods_BMI_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BMI_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,18 +63,85 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE8264A8A7F24B056E7301D1 /* Pods_BMI_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08F0D503D07D8034BDEC9B14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3EA18F5B7F737F2E4F60A /* Pods_BMI_Calculator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E02CC882B6F8641007F3E93 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E02CC942B713BE8007F3E93 /* CalculateViewModel.swift */,
+				3E66BB3E2B72D789002ECF9A /* ResultViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3E02CC8D2B70CDAC007F3E93 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				3E02CC8E2B70CDDD007F3E93 /* AppStep.swift */,
+				3E02CC902B70CE78007F3E93 /* AppFlow.swift */,
+				3E02CC922B70F8F4007F3E93 /* AppStepper.swift */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		3E02CC962B713F84007F3E93 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3E66BB3D2B72D533002ECF9A /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3E66BB3D2B72D533002ECF9A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				3E02CC972B713F9C007F3E93 /* RxFlowViewController.swift */,
+				3E02CC9B2B714A60007F3E93 /* ViewModel.swift */,
+				3E02CC9D2B716FE7007F3E93 /* StoryboardSceneInstantiating.swift */,
+				3E66BB402B72DB62002ECF9A /* StoryboardInstantiating.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3ED6BA872B6E527600274834 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3ED6BA882B6E528500274834 /* HeightModel.swift */,
+				3E02CC8B2B702407007F3E93 /* BMIModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A356FA432A9C672FE1AB763 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DF73F90238065C453A83696 /* Pods-BMI Calculator.debug.xcconfig */,
+				68867211C9BA71A54749D58F /* Pods-BMI Calculator.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD0B9F6D230D61800065EFD9 = {
 			isa = PBXGroup;
 			children = (
 				AD6435992312D0BC00E22B00 /* README.md */,
 				AD0B9F78230D61800065EFD9 /* BMI Calculator */,
 				AD0B9F77230D61800065EFD9 /* Products */,
+				7A356FA432A9C672FE1AB763 /* Pods */,
+				08F0D503D07D8034BDEC9B14 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +158,10 @@
 			children = (
 				AD0B9F79230D61800065EFD9 /* AppDelegate.swift */,
 				AD0B9F7B230D61800065EFD9 /* SceneDelegate.swift */,
-				AD0B9F8F230D63EA0065EFD9 /* Models */,
+				3E02CC962B713F84007F3E93 /* Common */,
+				3E02CC8D2B70CDAC007F3E93 /* Flows */,
+				3ED6BA872B6E527600274834 /* Models */,
+				3E02CC882B6F8641007F3E93 /* ViewModels */,
 				AD0B9F8E230D63E10065EFD9 /* Views */,
 				AD0B9F8D230D63D70065EFD9 /* Controllers */,
 				AD0B9F82230D61840065EFD9 /* Assets.xcassets */,
@@ -74,7 +174,9 @@
 		AD0B9F8D230D63D70065EFD9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AD0B9F7D230D61800065EFD9 /* ViewController.swift */,
+				AD0B9F7D230D61800065EFD9 /* CalculateViewController.swift */,
+				3ED6BA8A2B6E5AD000274834 /* SecondViewController.swift */,
+				3ED6BA8C2B6E5F2800274834 /* ResultViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -87,13 +189,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -101,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0B9F8A230D61840065EFD9 /* Build configuration list for PBXNativeTarget "BMI Calculator" */;
 			buildPhases = (
+				248C0D658415215FF4CFED7D /* [CP] Check Pods Manifest.lock */,
 				AD0B9F72230D61800065EFD9 /* Sources */,
 				AD0B9F73230D61800065EFD9 /* Frameworks */,
 				AD0B9F74230D61800065EFD9 /* Resources */,
+				F0C4648ED0BE97F4EBEF4072 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -120,8 +217,9 @@
 		AD0B9F6E230D61800065EFD9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Angela Yu";
 				TargetAttributes = {
 					AD0B9F75230D61800065EFD9 = {
@@ -161,14 +259,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		248C0D658415215FF4CFED7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BMI Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0C4648ED0BE97F4EBEF4072 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BMI Calculator/Pods-BMI Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD0B9F72230D61800065EFD9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD0B9F7E230D61800065EFD9 /* ViewController.swift in Sources */,
+				3ED6BA8B2B6E5AD000274834 /* SecondViewController.swift in Sources */,
+				3E66BB3F2B72D789002ECF9A /* ResultViewModel.swift in Sources */,
+				3E02CC952B713BE8007F3E93 /* CalculateViewModel.swift in Sources */,
+				3E02CC9C2B714A60007F3E93 /* ViewModel.swift in Sources */,
+				3E02CC982B713F9C007F3E93 /* RxFlowViewController.swift in Sources */,
+				3E02CC8F2B70CDDD007F3E93 /* AppStep.swift in Sources */,
+				AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */,
+				3E02CC912B70CE78007F3E93 /* AppFlow.swift in Sources */,
+				3E02CC8C2B702407007F3E93 /* BMIModel.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
+				3ED6BA892B6E528500274834 /* HeightModel.swift in Sources */,
+				3E02CC9E2B716FE7007F3E93 /* StoryboardSceneInstantiating.swift in Sources */,
+				3E02CC932B70F8F4007F3E93 /* AppStepper.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
+				3E66BB412B72DB62002ECF9A /* StoryboardInstantiating.swift in Sources */,
+				3ED6BA8D2B6E5F2800274834 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +373,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -230,6 +384,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -280,6 +435,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -290,6 +446,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -310,9 +467,11 @@
 		};
 		AD0B9F8B230D61840065EFD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DF73F90238065C453A83696 /* Pods-BMI Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -327,9 +486,11 @@
 		};
 		AD0B9F8C230D61840065EFD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68867211C9BA71A54749D58F /* Pods-BMI Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
